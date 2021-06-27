@@ -1,0 +1,16 @@
+Steps to follow -
+sudo su
+  password:
+cd ns(Press tab)
+cd ns(Press tab)
+cd sc(Press tab)
+gedit filename.cc
+Write the program and save
+cd ..
+./waf
+./waf --run scratch/filename(without extension)
+cd ..
+export QT_X11_NO_MITSHM=1
+cd net(Press tab)
+./NetAnim
+Run .xml file specified in the program
